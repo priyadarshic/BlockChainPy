@@ -3,7 +3,6 @@ from flask import Flask, jsonify
 from mycoin.blockchain import BlockChain
 
 app = Flask(__name__)
-
 blockchain = BlockChain()
 
 
